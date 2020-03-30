@@ -183,7 +183,7 @@ find_package(Doxygen)
     # Python
     ##########
 
-find_package(PythonLibs 3)
+find_package(PythonLibs 2)
 find_package(SWIG)
 
 if(SWIG_FOUND)
